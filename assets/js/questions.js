@@ -30,7 +30,7 @@ var questions = [
         answer: "else"
     },
     {
-        question: "What operator is used when assigning a variable its value",
+        question: "What operator is used when assigning a variable its value?",
         choices: ["=", "?", "===", "!="],
         answer: "="
     }
