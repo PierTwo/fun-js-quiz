@@ -1,0 +1,76 @@
+.display {
+    display: none;
+}
+
+.timer {
+    position: relative;
+    top: 150px;
+    left: 70rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    top: 20vh;
+    left: 50vh;
+    height: 400px;
+    width: 800px;
+
+}
+
+.quizTitle {
+    grid-area: 1 / 1 / 1 / 6;
+    text-align: center;
+    height: fit-content;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.start {
+    height: 50px;
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+.quizOptions {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.choice {
+    margin: 6px;
+    padding: 6px;
+    display: block;
+}
+
+.submit {
+    margin: 5px;
+    padding: 8px;
+    height: 45px;
+}
+
+.playAgain {
+    margin: 5px;
+    padding: 8px;
+    height: 45px;
+}
+
+.initials {
+    width: 250px;
+    height: 45px;
+    align-self: center;
+}
+
+.scoreName {
+    display: flex;
+    grid-area: 2 / 2 / 2 / 5;
+    justify-content: center;
+    height: min-content;
+}
