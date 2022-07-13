@@ -113,7 +113,7 @@ submit.addEventListener("click", function (event) {
     localStorage.setItem("players", JSON.stringify(players));
 
     submit.textContent = "Saved!";
-    location.href = ("../../scores.html")
+    location.href = ("./scores.html");
 });
 // Starts game when user clicks by calling the quizGame function
 startBtn.addEventListener("click", function (event) {
