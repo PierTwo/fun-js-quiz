@@ -1,0 +1,54 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80vh;
+}
+
+.back {
+    margin: 15px;
+}
+
+.back a {
+    text-decoration: none;
+}
+
+.highScores {
+    display: flex;
+    justify-content: center;
+
+}
+
+.highScores h1 {
+    border-bottom: 4px solid grey;
+    padding-bottom: 4px;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+.highScores ol {
+    position: absolute;
+    top: 120px;
+    width: 400px;
+    padding: 8px;
+}
+
+.score-li {
+    margin: 10px;
+    height: fit-content;
+    font-size: 36px;
+    background-color: powderblue;
+    text-align: left;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 1200px;
+    top: 80px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}

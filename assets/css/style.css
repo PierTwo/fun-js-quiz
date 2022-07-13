@@ -1,16 +1,18 @@
-.display {
-    display: none;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .timer {
-    position: relative;
-    top: 150px;
-    left: 70rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: fit-content;
 }
 
 .grid-container {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
     position: relative;
     top: 20vh;
     left: 50vh;
@@ -37,7 +39,10 @@
 
 .start {
     height: 50px;
-    grid-area: 3 / 3 / 3 / 3;
+    padding: 10px;
+    grid-area: 3 / 2 / 3 / 4;
+    justify-self: center;
+    width: fit-content;
 }
 
 .quizOptions {
@@ -56,21 +61,23 @@
     height: 45px;
 }
 
-.playAgain {
-    margin: 5px;
-    padding: 8px;
-    height: 45px;
-}
-
 .initials {
     width: 250px;
     height: 45px;
-    align-self: center;
 }
 
 .scoreName {
-    display: flex;
-    grid-area: 2 / 2 / 2 / 5;
-    justify-content: center;
-    height: min-content;
+    grid-area: 2 / 2 / 2 / 4;
+}
+
+.scoreLink {
+    margin: 15px;
+}
+
+.scoreLink a {
+    text-decoration: none;
+}
+
+.displayNone {
+    display: none;
 }

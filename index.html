@@ -11,30 +11,30 @@
 </head>
 
 <body>
-    <a href="./scores.html">View High Scores</a>
+    <h2 class="scoreLink"><a href="./scores.html">View Latest Score</a></h2>
 
-    <h2 id="time">Time Left: <span id="timer"></span></h2>
+    <h2 class="timer">Time Left: <span id="time"></span></h2>
 
-    <main class="flexbox">
-        <h1 id="quizTitle">Welcome to Fun JavaScript Quiz!</h1>
+    <main class="grid-container">
+        <h1 id="quizTitle" class="quizTitle">Welcome to Fun JavaScript Quiz!</h1>
 
-        <div id="container">
-            <button id="choice1" class="choiceBtn"></button>
-            <button id="choice2" class="choiceBtn"></button>
-            <button id="choice3" class="choiceBtn"></button>
-            <button id="choice4" class="choiceBtn"></button>
+        <div id="quizOptions" class="quizOptions">
+            <button class="btn choice" id="choice1" class="choiceBtn"></button>
+            <button class="btn choice" id="choice2" class="choiceBtn"></button>
+            <button class="btn choice" id="choice3" class="choiceBtn"></button>
+            <button class="btn choice" id="choice4" class="choiceBtn"></button>
         </div>
 
-        <div>
-            <input id="initials" type="text" placeholder="Enter your initials to save your score!">
-            <button id="submit" type="submit">Submit</button>
+        <div class="scoreName" id="scoreName">
+            <input class="initials" id="initials" type="text" placeholder="Enter your initials to save your score!">
+            <button class="btn submit" id="submit" type="submit">Submit</button>
         </div>
 
-        <button id="start">Start Game</button>
+        <button class="btn start" id="start">Start Game</button>
     </main>
 
     <script src="./assets/js/questions.js"></script>
-    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
